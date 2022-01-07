@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PluginBase\PluginBase.csproj">
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference
+        Include="log4net"
+        Version="2.0.14" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AppWithPlugin">
+      <HintPath>..\AppWithPlugin\obj\Debug\net6.0\AppWithPlugin.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
