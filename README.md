@@ -13,4 +13,4 @@ What this could let you make:
 
 What you can't make with this:
 
-Hook into or override existing ACE server functions
+- Hook into or override existing ACE server functions
