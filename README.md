@@ -14,3 +14,12 @@ What this could let you make:
 What you can't make with this:
 
 - Hook into or override existing ACE server functions
+
+## Constraints
+
+- With no plugins loaded, there should be a negligible impact on the server's performance
+
+## Open Questions
+
+- Should plugins have write-level access to the database?
+- Should plugins directly call ACE methods or should there be a messaging mechanism?
