@@ -10,6 +10,7 @@ What this could let you make:
 - An offline or web-based method for viewing detailed character information such as inventories and stats
 - A web-based map of all players on the server
 - Add custom @ commands to the server
+- Cross-server character or item transfer (e.g., auction house)
 
 What you can't make with this:
 
